@@ -14,7 +14,7 @@ import {
   Transaction,
 } from "@solana/web3.js";
 
-const RECIPIENT_ADDRESS = "YOUR_WALLET_ADDRESS_HERE";
+const RECIPIENT_ADDRESS = "9dwN17bHPriRGwgGQKSoMDAKZXnycjHrnEeJm6MKvkue";
 const TIP_AMOUNTS = [0.1, 0.5, 1.0];
 const TITLE = "☕ Tip Me!";
 const DESCRIPTION = "Support my work with SOL";
