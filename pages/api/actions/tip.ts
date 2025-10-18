@@ -28,6 +28,7 @@ export async function GET(request: Request) {
     label: "Send Tip",
     links: {
       actions: TIP_AMOUNTS.map(amount => ({
+        type: "transaction",
         label: `${amount} SOL`,
         href: `/api/actions/tip?amount=${amount}`,
       })),
