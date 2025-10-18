@@ -65,6 +65,7 @@ export async function POST(request: Request) {
     ).blockhash;
 
     const response: ActionPostResponse = {
+      type: "transaction",
       transaction: transaction.serialize({
         requireAllSignatures: false,
         verifySignatures: false,
